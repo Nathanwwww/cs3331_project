@@ -1,0 +1,3 @@
+2019-10-15
+Complete template design, react will be applied in our development. Website is designed base on existing treading soft(oanda)
+

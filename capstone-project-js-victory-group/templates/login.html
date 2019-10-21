@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<body>
+    <h1>
+        <b>Login Here!<b></b>
+    </h1>
+
+    <div class="form-inline my-2 my-lg-0">
+        <form name="login" action="/staff" method="POST">
+            <input class="form-control mr-sm-2" required username="username" type="username" placeholder="Username" width=50%>
+            <input class="form-control mr-sm-2" required password="password" type="password" placeholder="Password" width=50%>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+        </form> 
+    </div>
+</body>
+{% endblock %}
